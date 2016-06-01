@@ -61,13 +61,10 @@ margin : 0;
 }
 
 .container {
-<<<<<<< HEAD
    background-color: white ;
    margin: 5em 4em;
-=======
    background-color: #b9b9b9;
    margin: 2em 0;
->>>>>>> 202caf481bfae1a284b6a675a0b71a0333f2fc3b
    display: flex;
    flex-flow: column;
    justify-content: center;
@@ -76,13 +73,10 @@ margin : 0;
 
 .album {
    background-color: #f2f2f2;
-<<<<<<< HEAD
    max-width: 800;
-=======
    max-width: 850px;
    margin-right : auto;
    border-radius: 20px;
->>>>>>> 202caf481bfae1a284b6a675a0b71a0333f2fc3b
 }
 
 .album > h2 {
