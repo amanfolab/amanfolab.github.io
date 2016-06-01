@@ -1,11 +1,7 @@
 
-@font-face {
-  font-family: Gothic;
-  src :url('fonts/vesna.tff');
-
-}
 body {
-  background-color:  #b9b9b9;
+  font-family: Arial;
+  background-color:  #464646;
   margin: 0 2em 0 2em;
   font-size: 100;
   display: flex;
@@ -14,8 +10,10 @@ body {
 }
 
 header {
-  background-color: #e7e7e7;
+  position: fixed;
+  background-color: #cf0a2e;
   margin: 0 0 0.5em 0;
+  width: 100%;
 }
 
 ul {
@@ -27,12 +25,22 @@ ul {
 
 li {
   float: left;
+
 }
+
 
 li > a {
   display: block;
-  padding: 0 16px 0;
+  padding: 16px 16px;
+  text-decoration: none;
+  color : white;
 }
+
+li > a:hover {
+  background-color: #df0b32;
+}
+
+
 
 a > img {
   width: 80px;
@@ -45,7 +53,7 @@ margin : 0;
 .artspace > img {
   width : 200px;
   margin : 0 5px;
-  border : 1px solid white;
+  border : 2px solid white;
 }
 
 .artspace > img:hover {
@@ -53,17 +61,28 @@ margin : 0;
 }
 
 .container {
+<<<<<<< HEAD
+   background-color: white ;
+   margin: 5em 4em;
+=======
    background-color: #b9b9b9;
    margin: 2em 0;
+>>>>>>> 202caf481bfae1a284b6a675a0b71a0333f2fc3b
    display: flex;
-   flex-flow: row;
+   flex-flow: column;
+   justify-content: center;
+   border-radius: 15px;
 }
 
 .album {
    background-color: #f2f2f2;
+<<<<<<< HEAD
+   max-width: 800;
+=======
    max-width: 850px;
    margin-right : auto;
    border-radius: 20px;
+>>>>>>> 202caf481bfae1a284b6a675a0b71a0333f2fc3b
 }
 
 .album > h2 {
@@ -71,13 +90,15 @@ margin : 0;
 }
 
 aside {
-  background-color: #f2f2f2;
+  background-color: white;
   display: flex;
   flex-flow: column;
   max-width: 300px;
   padding: 1em;
   justify-content: center;
   border-radius: 20px;
+  order: -1;
+  align-self: center;
 }
 
 aside > img {
@@ -85,7 +106,7 @@ aside > img {
   align-self: center;
 }
 
-aside > h3 {
+aside > h2 {
   text-align: center;
   background-color: #f4de70;
   color: white;
