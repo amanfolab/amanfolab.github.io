@@ -1,0 +1,114 @@
+
+@font-face {
+  font-family: Gothic;
+  src :url('fonts/vesna.tff');
+
+}
+body {
+  background-color:  #b9b9b9;
+  margin: 0 2em 0 2em;
+  font-size: 100;
+  display: flex;
+  flex-flow: column wrap;
+  font-family: Arial;
+}
+
+header {
+  background-color: #e7e7e7;
+  margin: 0 0 0.5em 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding : 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li > a {
+  display: block;
+  padding: 0 16px 0;
+}
+
+a > img {
+  width: 80px;
+}
+
+
+.artspace {
+margin : 0;
+}
+.artspace > img {
+  width : 200px;
+  margin : 0 5px;
+  border : 1px solid white;
+}
+
+.artspace > img:hover {
+  border : 2px solid #3d3d3d;
+}
+
+.container {
+   background-color: #b9b9b9;
+   margin: 4em;
+   display: flex;
+   flex-flow: row;
+}
+
+.album {
+   background-color: #f2f2f2;
+   max-width: 650px;
+   margin-right : auto;
+   border-radius: 20px;
+}
+
+.album > h2 {
+  text-align: center;
+}
+
+aside {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-flow: column;
+  max-width: 300px;
+  padding: 1em;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+aside > img {
+  width: 200px;
+  align-self: center;
+}
+
+aside > h3 {
+  text-align: center;
+  background-color: #f4de70;
+  color: white;
+}
+
+aside > p {
+  text-align: center;
+  margin : 0;
+  font-size: 1.2em;
+}
+
+aside > .get-social {
+  padding: 10px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-self: center;
+}
+
+.get-social img {
+  width: 80px;
+}
+
+footer {
+  align-self: center;
+}
