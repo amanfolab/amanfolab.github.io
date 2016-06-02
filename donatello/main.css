@@ -1,12 +1,9 @@
-
-@font-face {
-  font-family: Gothic;
-  src: url('../fonts/century-gothic.ttf');
+    @font-face {
+    font-family: Gothic;
+    src: url('../fonts/century-gothic.ttf');
 }
-
-
 body {
-    font-family: Gothic,Arial;
+    font-family: Gothic, Arial;
     background-color: #a2a2a2;
     margin: 0 4em;
     display: flex;
@@ -16,14 +13,11 @@ header {
     position: fixed;
     background-color: #fe123c;
     width: 100%;
-    box-shadow: 4px 5px 5px black,
-    ;
-
+    box-shadow: 4px 5px 5px black, ;
 }
 nav > ul {
     list-style-type: none;
     float: left;
-
     margin: 0;
     padding: 0;
 }
@@ -42,10 +36,9 @@ li a:hover {
     background-color: #f9f9f9;
     color: #fe123c;
 }
-
- li > a > img {
-   width: 48px;
- }
+li > a > img {
+    width: 48px;
+}
 .container {
     display: flex;
     flex-flow: column nowrap;
@@ -60,7 +53,6 @@ li a:hover {
     justify-content: center;
     background-color: #ebebeb;
 }
-
 .artspace {
     align-self: center;
 }
@@ -79,7 +71,7 @@ li a:hover {
     align-items: center;
     margin-top: 5em;
     border-radius: 20px 20px 0 0;
-    box-shadow: 5px 0  10px black;
+    box-shadow: 5px 0 10px black;
 }
 .profile > img {
     width: 200px;
@@ -96,21 +88,28 @@ li a:hover {
     align-self: center;
     margin-top: 5px;
     border-radius: 10px;
-    color : #f9f9f9;
+    color: #f9f9f9;
     font-weight: bolder;
 }
 p {
     margin: 0;
     text-align: center;
-    padding : 10px;
-    color : #f9f9f9;
+    padding: 10px;
+    color: #f9f9f9;
     font-weight: bolder;
-
 }
 
 /* for mobile */
-@media only screen and (max-width : 768px) {
-  body {
-    margin: 0 1em;
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0 1em;
+    }
+    album {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items : center;
+        background-color: #ebebeb;
+    }
   }
-}
