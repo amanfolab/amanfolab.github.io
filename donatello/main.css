@@ -112,4 +112,11 @@ p {
         align-items : center;
         background-color: #ebebeb;
     }
+     .artspace {
+       display: flex;
+       flex-flow: column;
+     }
+    .artspace > img {
+      vertical-align :middle;
+    }
   }
